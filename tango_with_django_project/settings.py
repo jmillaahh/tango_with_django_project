@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'rango',
 ]
 
+LOGIN_URL = 'rango:login'
+
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
