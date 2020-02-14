@@ -12,3 +12,4 @@ def about(request):
     # html = "Rango says here is the about page.<br/>" + '<a href="/rango/">Index</a>'
     # return HttpResponse(html)
     return render(request, 'rango/about.html')
+    # comment added to make new commit 
